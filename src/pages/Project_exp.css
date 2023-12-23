@@ -53,14 +53,14 @@ h2 {
 }
 .pcontainer {
   width: 400px;
-  height: 500px;
+  height: 600px;
   display: flex;
   background-color: #fff;
   box-shadow: 0px 0px 3px 0px #cccccc;
-  padding: 0 0 21px 0;
+  padding: 30px;
   align-items: center;
-  justify-content: space-evenly;
-  font-size: 18px;
+  justify-content: space-between;
+  font-size: 12px;
   font-weight: 600;
   border-radius: 9px;
   flex-direction: column;
@@ -81,25 +81,24 @@ h2 {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  align-content: flex-end;
   align-content: center;
 }
 
 .proj_header {
   display: flex;
   align-items: center;
-  align-content: center;
-  justify-content: space-evenly;
-  gap: 20px;
-  padding: 12px 20px;
+  gap: 40px;
+  padding: 10px;
 }
 .proj_btns {
   width: 100%;
   gap: 12px;
   display: flex;
-  align-items: center;
+  /* align-items:end; */
   justify-content: center;
-  align-content: center;
+  align-content: start;
+  padding: 10px;
 }
 
 .proj_code,
@@ -126,7 +125,7 @@ h2 {
   color: #fff;
 }
 .pcontainer img {
-  height: 350px;
+  height: 150px;
 }
 @media screen and (min-width: 1024px) {
   .view__btn {
