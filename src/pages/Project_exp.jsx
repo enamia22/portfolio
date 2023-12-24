@@ -14,17 +14,17 @@ const Project_exp = () => {
         </div>
         <br />
         <br />
-        <div className="cont">
-          <div className="educ_div_section">
-            <div className="educ_upper_section">
-              <div className="educ_container_two">
-                <div className="upper_container_section">
-                  <div className="uppper_left">
+        <div className="project-container">
+          <div className="project-section">
+            <div className="project-upper-section">
+              <div className="project-container-two">
+                <div className="project-upper-container">
+                  <div className="project-left">
                     <img src={simply} alt="project Images" />
                   </div>
-                  <div className="upper_middle">
+                  <div className="project-middle">
                     <h3>Simply Contact</h3>
-                    <div className="upper_right">
+                    <div className="project-right">
                       <h4>Agent Back Office</h4>
                       <h5 style={{ color: "green" }}>
                         janvier 2020 / janvier 2021
@@ -32,8 +32,8 @@ const Project_exp = () => {
                     </div>
                   </div>
                 </div>
-                <div className="educ_lower_section">
-                  <div className="educ_data_info">
+                <div className="project-lower-section">
+                  <div className="project-data-info">
                     <p>
                       Dans mon rôle d'employé du back-office chez Simply
                       Contact, j'ai démontré ma maîtrise de Salesforce, du
@@ -49,7 +49,7 @@ const Project_exp = () => {
                       problèmes.
                     </p>
                   </div>
-                  <div className="educ_btn">
+                  <div className="project-btn">
                     <a href={"https://simplycontact.com/"}>
                       <button>Visiter le site</button>
                     </a>
@@ -58,25 +58,26 @@ const Project_exp = () => {
               </div>
             </div>
           </div>
-          <div className="educ_div_section">
-            <div className="educ_upper_section">
-              <div className="educ_container_two">
-                <div className="upper_container_section">
-                  <div className="uppper_left">
+
+          <div className="project-section">
+            <div className="project-upper-section">
+              <div className="project-container-two">
+                <div className="project-upper-container">
+                  <div className="project-left">
                     <img src={ark} alt="project Images" />
                   </div>
-                  <div className="upper_middle">
+                  <div className="project-middle">
                     <h3>Ark X Talent factory</h3>
-                    <div className="upper_right">
-                      <h4>Developpeur Full Stack MERN</h4>
+                    <div className="project-right">
+                      <h4>Développeur Full Stack MERN</h4>
                       <h5 style={{ color: "green" }}>
                         juillet 2023 / decembre 2023
                       </h5>
                     </div>
                   </div>
                 </div>
-                <div className="educ_lower_section">
-                  <div className="educ_data_info">
+                <div className="project-lower-section">
+                  <div className="project-data-info">
                     <p>
                       En tant que développeur Junior Full Stack MERN chez ARK-X,
                       je me suis activement engagé auprès de la communauté
@@ -94,7 +95,7 @@ const Project_exp = () => {
                       les produits, les catégories et les ventes.
                     </p>
                   </div>
-                  <div className="educ_btn">
+                  <div className="project-btn">
                     <a href={"https://www.arkx.group/"}>
                       <button>Visiter le site</button>
                     </a>
@@ -103,7 +104,6 @@ const Project_exp = () => {
               </div>
             </div>
           </div>
-        
         </div>
         <br />
         <br />

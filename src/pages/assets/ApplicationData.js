@@ -5,7 +5,6 @@ import css_logo from "../../Image/logo_folder/css_logo.png";
 import netlify_logo from "../../Image/logo_folder/netlify_logo.png";
 import mysql_logo from "../../Image/logo_folder/mysql_logo.png";
 import bootstrap_logo from "../../Image/logo_folder/bootstrap_logo.png";
-import java_logo from "../../Image/logo_folder/java_logo.png";
 import javascript_logo from "../../Image/logo_folder/js_logo.png";
 import github_logo from "../../Image/logo_folder/github_logo.png";
 import mongodb_logo from "../../Image/logo_folder/mongodb_logo.png";
@@ -14,9 +13,19 @@ import material_logo from "../../Image/logo_folder/material_logo.png";
 import express_logo from "../../Image/logo_folder/express_logo.png";
 import vercel from "../../Image/logo_folder/vercel.svg";
 import typescript from "../../Image/logo_folder/typescript.png";
-import tailwindcss from "../../Image/logo_folder/tailwindcss.png";
+import axios_logo from "../../Image/logo_folder/Axios.png";
+import chakra_logo from "../../Image/logo_folder/chakra_logo.png";
+import npm_logo from "../../Image/logo_folder/Npm-logo.png";
+import socket_logo from "../../Image/logo_folder/Socket-io_logo.png";
+import laravel_logo from "../../Image/logo_folder/Laravel_logo.png";
+import php_logo from "../../Image/logo_folder/PHP-logopng.png";
+import postman_logo from "../../Image/logo_folder/Postman.png";
+import python_logo from "../../Image/logo_folder/Python-logo.png";
 import redux from "../../Image/logo_folder/redux.png";
-import jira from "../../Image/logo_folder/jira.png";
+import c_logo from "../../Image/logo_folder/C_logo.png";
+import cplusplus_logo from "../../Image/logo_folder/C++_logo.png";
+import salesforce_logo from "../../Image/logo_folder/Salesforce_logo.png";
+
 
 const my_skills_data = [
   {
@@ -62,8 +71,8 @@ const my_skills_data = [
   },
   {
     id: 9,
-    skill_name: "Tailwind",
-    img_link: tailwindcss,
+    skill_name: "Axios",
+    img_link: axios_logo,
   },
   {
     id: 10,
@@ -87,8 +96,8 @@ const my_skills_data = [
   },
   {
     id: 14,
-    skill_name: "Java",
-    img_link: java_logo,
+    skill_name: "Chakra UI",
+    img_link: chakra_logo,
   },
   {
     id: 15,
@@ -102,8 +111,8 @@ const my_skills_data = [
   },
   {
     id: 17,
-    skill_name: "Jira",
-    img_link: jira,
+    skill_name: "NPM",
+    img_link: npm_logo,
   },
   {
     id: 18,
@@ -114,6 +123,46 @@ const my_skills_data = [
     id: 19,
     skill_name: "Vercel",
     img_link: vercel,
+  },
+  {
+    id: 20,
+    skill_name: "Socket I/O",
+    img_link: socket_logo,
+  },
+  {
+    id: 21,
+    skill_name: "Laravel",
+    img_link: laravel_logo,
+  },
+  {
+    id: 22,
+    skill_name: "PHP",
+    img_link: php_logo,
+  },
+  {
+    id: 23,
+    skill_name: "Postman",
+    img_link: postman_logo,
+  },
+  {
+    id: 24,
+    skill_name: "Python",
+    img_link: python_logo,
+  },
+  {
+    id: 25,
+    skill_name: "C",
+    img_link: c_logo,
+  },
+  {
+    id: 26,
+    skill_name: "C++",
+    img_link: cplusplus_logo,
+  },
+  {
+    id: 27,
+    skill_name: "Salesforce",
+    img_link: salesforce_logo,
   },
 ];
 export default my_skills_data;

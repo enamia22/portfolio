@@ -1,5 +1,5 @@
 .upper_left img {
-  width: 100px;
+  width: 90px;
 }
 .educ_div_section,
 .educ_container_one img {
@@ -58,21 +58,26 @@
 }
 
 .educ_btn button {
-  outline: none;
-  border: none;
-  width: 227px;
+  width: 150px;
   height: 45px;
   font-size: 15px;
-  transition: ease-in-out 0.5s;
-  background: transparent;
-  color: #fff;
-  border: 1px solid #1e88e5;
-  box-shadow: 3px #1e88e5;
+  font-weight: 500;
+  outline: none;
+  border: none;
   border-radius: 3px;
+  transition: ease-in-out 0.3s;
+  background-color: #807e6e26;
+  color: #2c9efa;
 }
 .educ_btn button:active {
-  transform: scale(0.9);
+  transform: scale(0.6);
 }
+
+.educ_btn button:hover {
+  background: #5c6bc0;
+  color: #fff;
+}
+
 .educ_lower_section {
   flex-direction: column;
   flex-wrap: wrap;
