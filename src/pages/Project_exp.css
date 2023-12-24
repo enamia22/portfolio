@@ -4,10 +4,9 @@
   position: inherit;
   flex-direction: column;
   align-items: center;
-  background: #fff8dc;
   padding: 20px 0;
+  background-color: #020f21 !important;
 }
-
 h2 {
   margin-top: 100px;
 }
@@ -55,7 +54,7 @@ h2 {
   width: 450px;
   height: 600px;
   display: flex;
-  background-color: #fff;
+  background-color: #101625;
   box-shadow: 0px 0px 3px 0px #cccccc;
   padding: 30px;
   align-items: center;
@@ -130,14 +129,13 @@ h2 {
 .proj_descriptions{
   color: #000;
 }
+  .proj_descriptions{
+  color: #ffffff;
+}
 
-@media screen and (min-width: 1024px) {
   .view__btn {
     border: 1px solid #1e88e5;
     color: #fff;
-  }
-  .work_page {
-    background-color: #020f21 !important;
   }
   .proj_header {
     color: #e4e4e4cf;
@@ -154,10 +152,6 @@ h2 {
   .proj_live {
     color: #2c9efa;
   }
-  .proj_descriptions{
-  color: #ffffff;
-}
-}
 
 @media screen and (max-width: 420px) {
   .project_work_page {
@@ -166,27 +160,27 @@ h2 {
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 500px) {
   .pcontainer {
-    width: 90%;
+    width: 80%;
+    height: inherit;
   }
   .pcontainer img {
-    width: 100%;
+    width: 70%;
   }
-}
-
-@media screen and (max-width: 350px) {
+  .proj_descriptions {
+    width: 100%;
+    font-size: 10px;
+  }
   .proj_btns {
     flex-direction: column;
+    align-items: center;
   }
   .proj_code,
   .proj_live {
     width: 250px;
   }
 }
-
-
-
 
 .card {
   max-width: 550px;
@@ -265,6 +259,7 @@ h2 {
   }
 }
 
+
 .project-left img {
   width: 250px;
   border-radius: 3px;
@@ -318,14 +313,14 @@ h2 {
   width: 100%;
 }
 
-.project-middle {
+.project-right {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding-bottom: 20px;
 }
 
-.project-middle h3 {
+.project-right h3 {
   font-size: 20px;
 }
 
@@ -405,29 +400,23 @@ h2 {
 
 @media screen and (max-width: 720px) {
   .project-lower-section {
-    width: 100%;
-  }
-  .project-upper-container {
-    justify-content: space-between;
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .project-left img {
-    display: none;
+    width: 200px;
   }
   .project-upper-container {
-    gap: 0px;
+    gap: 20px;
   }
   .project-lower-section {
-    width: 100%;
+    width: 80%;
   }
   .project-data-info {
     width: 100%;
     text-align: left;
-  }
-  .project-middle {
-    gap: 3px;
   }
   .project-right {
     gap: 6px;

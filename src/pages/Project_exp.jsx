@@ -22,14 +22,12 @@ const Project_exp = () => {
                   <div className="project-left">
                     <img src={simply} alt="project Images" />
                   </div>
-                  <div className="project-middle">
+                  <div className="project-right">
                     <h3>Simply Contact</h3>
-                    <div className="project-right">
-                      <h4>Agent Back Office</h4>
-                      <h5 style={{ color: "green" }}>
-                        janvier 2020 / janvier 2021
-                      </h5>
-                    </div>
+                    <h4>Agent Back Office</h4>
+                    <h5 style={{ color: "green" }}>
+                      janvier 2020 / janvier 2021
+                    </h5>
                   </div>
                 </div>
                 <div className="project-lower-section">
@@ -66,14 +64,12 @@ const Project_exp = () => {
                   <div className="project-left">
                     <img src={ark} alt="project Images" />
                   </div>
-                  <div className="project-middle">
+                  <div className="project-right">
                     <h3>Ark X Talent factory</h3>
-                    <div className="project-right">
-                      <h4>Développeur Full Stack MERN</h4>
-                      <h5 style={{ color: "green" }}>
-                        juillet 2023 / decembre 2023
-                      </h5>
-                    </div>
+                    <h4>Développeur Full Stack MERN</h4>
+                    <h5 style={{ color: "green" }}>
+                      juillet 2023 / decembre 2023
+                    </h5>
                   </div>
                 </div>
                 <div className="project-lower-section">

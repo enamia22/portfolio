@@ -59,8 +59,8 @@ h4 span {
 }
 .personal_info {
   width: 85%;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: row ;
 }
 
 @media screen and (min-width: 1024px) {
@@ -87,13 +87,6 @@ h4 span {
   .my_info {
     gap: 27px;
   }
-}
-@media screen and (max-width: 900px) {
-  .my_img img {
-    width: 500px;
-  }
-}
-@media screen and (max-width: 720px) {
   .container_01 {
     flex-direction: column;
   }
@@ -107,17 +100,20 @@ h4 span {
     width: 90%;
     margin: 35px 0 5px 0 !important;
   }
+  .personal_info h4 {
+    font-size: small;
+  }
 }
 @media screen and (max-width: 480px) {
   .container_01 {
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     position: relative;
     color: #fff;
     padding: 15px 0 25px 0;
   }
   .my_img img {
-    width: 100%;
+    width: 70%;
   }
   .my_info {
     width: 90%;
@@ -126,9 +122,9 @@ h4 span {
     margin: 10px;
   }
   .my_info p {
-    width: 100%;
+    width: 85%;
   }
   .personal_info {
-    width: 100%;
+    width: 50%;
   }
 }
